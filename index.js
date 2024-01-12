@@ -11,7 +11,7 @@ dismissBtn.addEventListener("click", (e) => {
   Container.classList.remove("hidden");
   Error.classList.add("hidden");
   emailInput.classList.remove(".error-state");
-  emailInput.value = "";
+  emailInput.value = " ";
 });
 
 subscribeBtn.addEventListener("click", () => {
