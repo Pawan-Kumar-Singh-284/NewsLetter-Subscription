@@ -6,7 +6,7 @@ const WelcomeMessage = document.querySelector(".welcome-message");
 const dismissBtn = document.querySelector(".dismiss");
 const Email = document.querySelector(".email-value");
 
-dismissBtn.addEventListener("click", (e) => {
+dismissBtn.addEventListener("click", () => {
   WelcomeMessage.classList.add("hidden");
   Container.classList.remove("hidden");
   Error.classList.add("hidden");
